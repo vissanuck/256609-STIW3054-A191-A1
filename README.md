@@ -16,7 +16,7 @@ This assignment is about how to get all the students' detail based on the commen
 ![alt text](http://githubbers.com/vissanuck/Githubimages/umlclass.png)
 
 #### Video Presentation
-
+This my link: https://www.youtube.com/watch?v=dpOedVYvcrQ
 #### References
 Gori, R. (2019, July 8). Web Scraping the Java Way. Retrieved from https://stackabuse.com/web-scraping-the-java-way/.
 

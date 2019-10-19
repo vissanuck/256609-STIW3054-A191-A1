@@ -7,6 +7,7 @@ import java.io.IOException;
 public class StudentDetail
 {
     public static String[][] studentsList = new String[45][2];
+    private static MatchLinks regexMatches = new MatchLinks();
     private static int x = 0;
     private static int y = 0;
 
@@ -18,7 +19,7 @@ public class StudentDetail
 
     private void Main()
     {
-        MatchLinks regexMatches = new MatchLinks();
+       regexMatches = new MatchLinks();
 
 
         try

@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class ExcelDisplay
 {
+    private static CompareList compareList = new CompareList();
     private static final String FILE_NAME = "C:/Users/vissa/A191 RealTime/Assigment1.xlsx";
     private static XSSFWorkbook workbook = new XSSFWorkbook();
     private static XSSFSheet sheet1 = workbook.createSheet("Students Submit");
@@ -16,7 +17,7 @@ public class ExcelDisplay
 
     public static void main(String[] args )
     {
-        CompareList.main(args);
+        compareList.main(args);
 
         Object[][] d1 = CompareList.studDet;
         Object[][] d2 = CompareList.studNum;

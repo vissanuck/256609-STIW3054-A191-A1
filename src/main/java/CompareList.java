@@ -2,6 +2,9 @@ import java.util.*;
 
 public class CompareList
 {
+    private static StudentDetail studentDetail = new StudentDetail();
+    private static StudentLink studentLink = new StudentLink();
+
     private static int totalCommented = 0;
     private static int totalNotCommented = 0;
     private static int totalAnonCommented = 0;
@@ -17,12 +20,13 @@ public class CompareList
     static String[][] studNum = new String[39][4];
     static String[][] studlin = new String[39][4];
 
+
     public static void main(String[] args)
     {
-        new StudentDetail();
-        StudentDetail.main(args);
-        new StudentLink();
-        StudentLink.main(args);
+
+        studentDetail.main(args);
+
+        studentLink.main(args);
 
 
         for (int i = 0; i < StudentDetail.studentsList.length; i++)

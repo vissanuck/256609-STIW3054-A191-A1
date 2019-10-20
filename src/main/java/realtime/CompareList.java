@@ -10,7 +10,7 @@ public class CompareList
     private static int totalNotCommented = 0;
     private static int totalAnonCommented = 0;
 
-    public static String[] studList = new String[45];
+    private static String[] studList = new String[45];
     private static String[] matList = new String[39];
     private static String[] reList = new String[39];
     private static String[] priList = new String[39];

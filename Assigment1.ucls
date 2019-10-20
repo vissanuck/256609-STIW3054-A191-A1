@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="MatchLinks" project="realtime" file="/realtime/src/main/java/MatchLinks.java" 
+  <class id="1" language="java" name="MatchLinks" project="realtimeprog" file="/realtimeprog/src/main/java/MatchLinks.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="106" width="191" x="383" y="962"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -10,7 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="ExcelDisplay" project="realtime" file="/realtime/src/main/java/ExcelDisplay.java" 
+  <class id="2" language="java" name="ExcelDisplay" project="realtimeprog" file="/realtimeprog/src/main/java/ExcelDisplay.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="214" width="244" x="383" y="56"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -19,7 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="CompareList" project="realtime" file="/realtime/src/main/java/CompareList.java" 
+  <class id="3" language="java" name="CompareList" project="realtimeprog" file="/realtimeprog/src/main/java/CompareList.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="340" width="173" x="383" y="310"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -28,8 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="StudentDetail" project="realtime" 
-    file="/realtime/src/main/java/StudentDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="StudentDetail" project="realtimeprog"
+    file="/realtimeprog/src/main/java/StudentDetail.java" binary="false" corner="BOTTOM_RIGHT">
     <position height="178" width="155" x="285" y="690"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,7 +37,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="StudentLink" project="realtime" file="/realtime/src/main/java/StudentLink.java" 
+  <class id="5" language="java" name="StudentLink" project="realtimeprog" file="/realtimeprog/src/main/java/StudentLink.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="232" width="165" x="480" y="690"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

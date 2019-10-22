@@ -1,4 +1,4 @@
-package realtimeprog;
+package com.github.vissanuck;
 import java.util.*;
 
 public class CompareList
@@ -13,7 +13,6 @@ public class CompareList
     private static String[] studList = new String[45];
     private static String[] matList = new String[39];
     private static String[] reList = new String[39];
-    private static String[] priList = new String[39];
 
     private static String[] Title = {"No.", "Matric", "Name", "Github Link"};
 
@@ -84,7 +83,7 @@ public class CompareList
         }
 
         System.out.println("List of Student Submit");
-        priList = reList(studDet);
+        String[] priList = reList(studDet);
         for (int i = 0; i < reList.length; i++) {
             if (priList[i] != null) {
                 System.out.println(priList[i]);
